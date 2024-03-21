@@ -1,0 +1,13 @@
+import { SvgIconComponent } from 'angular-svg-icon';
+
+import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+
+@Component({
+  selector: 'app-contact',
+  standalone: true,
+  imports: [SvgIconComponent, TranslateModule],
+  templateUrl: './contact.component.html',
+  styleUrl: './contact.component.scss',
+})
+export class ContactComponent {}

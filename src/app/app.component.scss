@@ -1,0 +1,12 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem 1fr;
+  .center {
+    align-self: center;
+  }
+}
+
+.main {
+  margin-top: 10rem;
+}

@@ -1,0 +1,57 @@
+<section class="experience">
+  <mat-accordion>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title class="experience__title">{{
+          resumeDataList.education.title | translate
+        }}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div
+        class="experience__info"
+        *ngFor="let resumeData of resumeDataList.education.data"
+      >
+        <h4>{{ resumeData.job_title | translate }}</h4>
+        <h5>
+          {{ resumeData.company }} {{ resumeData.start_date }} -
+          {{ resumeData.end_date }}
+        </h5>
+        <ul>
+          <li *ngFor="let tasks of resumeData.tasks">
+            {{ tasks | translate }}
+          </li>
+        </ul>
+        <!-- {{ resumeData.start_date | date }} -->
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title class="experience__title">{{
+          resumeDataList.work_experience.title | translate
+        }}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div
+        class="experience__info"
+        *ngFor="let resumeData of resumeDataList.work_experience.data"
+      >
+        <h4>{{ resumeData.job_title | translate }}</h4>
+        <h5>
+          {{ resumeData.company }} {{ resumeData.start_date }} -
+          {{ resumeData.end_date }}
+        </h5>
+        <ul>
+          <li *ngFor="let tasks of resumeData.tasks">
+            {{ tasks | translate }}
+          </li>
+        </ul>
+        <!-- {{ resumeData.start_date | date }} -->
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</section>

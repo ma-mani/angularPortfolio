@@ -1,0 +1,61 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "aboutme": "About me",
+      "experience": "Experience",
+      "contact":"Contact"
+    }
+  },
+    "aboutme": {
+      "age":"Age",
+      "location":"Location",
+      "degree":"Degree",
+      "info":"I started my career during my studies as a computer scientist. I gained my first experiences in web development during my 6-month internship at the Fraunhofer Institut. I deepened my knowledge at Neue Fische as a trainee to advance my career as a frontend developer. I am always looking for new challenges and opportunities for further education. Due to my commitment and high motivation, I am convinced that I can make a valuable contribution as a team member."
+    },
+    "experience": {
+      "educationTitle":"Education",
+      "workTitle":"Work Experience",
+      "education": {
+
+        "masterTitle":"Computer Science Master of Engineering - Embedded Systems",
+        "bachelorTitle":"Computer Science Bachelor of Engineering - Embedded Systems",
+        "internshipTitle":"Internship",
+        "fachabiTitle":"Advanced technical college entrance qualification",
+
+        "bachelor": "Development of VHDL basic components",
+        "fraunhofer": {
+          "task1": "Optimization, testing and quality assurance of mobile, HbbTV and SmartTV applications",
+          "task2":"Development of test video player",
+          "task3":"HTML, CSS and JavaScript modules developed"
+        },
+        "fachabi":["Build computers","Perform various installations","Repairs of devices"]
+      },
+      "work": {
+        "traineeTitle":"Web Developer Trainee",
+        "trainee": {
+          "task1":" HTML",
+          "task2":"CSS",
+          "task3":"JavaScript",
+          "task4":"React",
+          "task5":"Next.js",
+          "task6":"RESTfull API",
+          "task7":"Shell",
+          "task8":"Scrum"
+        },
+        "developerTitle":"Working Student, WebDeveloper",
+        "studentTitle":"US Unique Staff GmbH",
+        "developer": {
+          "task1":" HTML",
+          "task2":"CSS",
+          "task3":"JavaScript",
+          "task4":"Bootstrap"
+        }
+      }
+    },
+    "contact": {
+      "title":"Contact",
+      "firstInfo":"I can be reached at the following email:",
+      "secondInfo":"Feel free to connect with me on any of the following platforms:"
+    }
+}

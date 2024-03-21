@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-background-100);
+  width: 100%;
+
+  button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    .footer__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  span {
+    font-size: 2rem;
+    strong {
+      color: var(--color-primary);
+    }
+  }
+}

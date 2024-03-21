@@ -1,0 +1,21 @@
+.experience {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+  .experience__title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .experience__info {
+    h4 {
+      margin: 0;
+      font-weight: bold;
+    }
+    ul {
+      margin-bottom: 1.2rem;
+      border-bottom: 0.1rem solid black;
+      padding: 0 1.6rem;
+    }
+  }
+}

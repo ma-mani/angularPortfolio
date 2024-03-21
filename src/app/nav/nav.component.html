@@ -1,0 +1,27 @@
+<nav class="nav">
+  <ul class="nav__list-link">
+    <li>
+      <a
+        [routerLink]="['']"
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >{{ "header.nav.home" | translate }}</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/aboutme']" routerLinkActive="router-link-active">{{
+        "header.nav.aboutme" | translate
+      }}</a>
+    </li>
+    <li>
+      <a [routerLink]="['/cv']" routerLinkActive="router-link-active">{{
+        "header.nav.experience" | translate
+      }}</a>
+    </li>
+    <li>
+      <a [routerLink]="['/contact']" routerLinkActive="router-link-active">{{
+        "header.nav.contact" | translate
+      }}</a>
+    </li>
+  </ul>
+</nav>

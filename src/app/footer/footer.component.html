@@ -1,0 +1,18 @@
+<footer class="footer">
+  <span><strong>&copy;</strong> Created by <b> Mani Mashayeki</b> </span>
+  <button mat-flat-button (click)="changeLanguage()">
+    @if (language === "en") {
+    <svg-icon
+      class="footer__icon"
+      src="../../assets/images/svg/germany-flag-icon.svg "
+      [svgStyle]="{ 'width.px': 24 }"
+    ></svg-icon>
+    }@else {
+    <svg-icon
+      class="footer__icon"
+      src="../../assets/images/svg/united-kingdom-flag-icon.svg"
+      [svgStyle]="{ 'width.px': 24 }"
+    ></svg-icon>
+    }
+  </button>
+</footer>

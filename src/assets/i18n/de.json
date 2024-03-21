@@ -1,0 +1,48 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "aboutme": "Über mich",
+      "experience": "Erfahrungen",
+      "contact":"Kontakt"
+    }
+},
+
+    "aboutme": {
+      "age":"Alter",
+      "location":"Ort",
+      "degree":"Bildungsgrad",
+      "info":"Ich startete meine Karriere während meines Studiums als Informatiker. Meine ersten Erfahrungen in Webentwicklung sammelte ich während meines 6 monatigen Praktikums bei Fraunhofer Institut. Meine Kenntnisse vertiefte ich bei Neue Fische als Trainee, um meine Karriere als Frontend Entwickler voranzutreiben. Ich bin stets auf der Suche nach neuen Herausforderungen und Weiterbildungsmöglichkeiten. Durch mein Engagement und meine hohe Motivation bin ich überzeugt, dass ich einen wertvollen Beitrag als Teammitglied leisten kann."
+  },
+  "experience": {
+    "educationTitle":"Ausbildung",
+    "workTitle":"Berufserfahrung",
+    "education": {
+      "masterTitle":"Studium, Technische Informatik - Embedded Systems, Master of Engineering",
+      "bachelorTitle":"Bachelorabschluss, Technische Informatik - Embedded Systems, Bachelor of Engineering",
+      "internshipTitle":"Praktikum",
+      "fachabiTitle":"Erwerb der Fachhochschulreife",
+      "bachelor": "Entwicklung von VHDL-Basiskomponenten",
+      "fraunhofer": {
+        "task1": "Optimierung, Test und Qualitätssicherung mobiler, HbbTV- und SmartTV-Anwendungen",
+        "task2":"Entwicklung von Test-Video-Player",
+        "task3":"HTML, CSS und JavaScript Module entwickelt"
+      },
+      "fachabi":["Computer zusammenbauen","Verschiedene Installationen durchführen","Reperaturen von Hardware-Geräten"]
+    },
+    "work": {
+      "trainee":["HTML, CSS, JavaScript, React, Next.js, RESTful API, Shell, Scrum"],
+      "traineeTitle":"Trainee, Intensivprogramm zum Web Developer",
+      "developerTitle":"Werkstudent, Web-Developer",
+      "studentTitle":"US Unique Staff GmbH",
+      "developer":["HTML","CSS","JavaScript", "Bootstrap"]
+
+    }
+  },
+  "contact": {
+    "title":"Kontakt",
+    "firstInfo":"Ich bin unter folgender E-Mail-Adresse erreichbar:",
+    "secondInfo":"Kontaktieren Sie mich gerne auf einer der folgenden Plattformen:"
+  }
+
+}

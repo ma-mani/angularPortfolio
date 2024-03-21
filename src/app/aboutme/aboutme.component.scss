@@ -1,0 +1,72 @@
+.aboutme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  // height: calc(100% - 14rem);
+  padding: 1rem;
+  gap: 3rem;
+  @media (max-width: 845px) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .aboutme__details {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background-100);
+    border-radius: 9px;
+    gap: 2rem;
+    padding: 1.2rem;
+
+    .aboutme__title {
+      font-size: 2.4rem;
+    }
+
+    img {
+      width: 30%;
+      aspect-ratio: 1, 2;
+
+      border-top-left-radius: 50% 50%;
+      border-top-right-radius: 50% 50%;
+      border-bottom-right-radius: 50% 50%;
+      border-bottom-left-radius: 50% 50%;
+    }
+    .aboutme__personal-details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 1rem;
+
+      span {
+        font-size: 1.4rem;
+        @media (max-width: 340px) {
+          justify-self: center;
+        }
+      }
+
+      strong {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .aboutme__info {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    position: relative;
+
+    .aboutme__info-title {
+      font-size: 2.4rem;
+      color: var(--color-primary);
+      margin-bottom: 1rem;
+    }
+    span {
+      font-size: 1.6rem;
+      line-height: 3rem;
+    }
+  }
+}
